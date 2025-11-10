@@ -1,0 +1,11 @@
+@import "tailwindcss";
+/* Before */
+:deep(.child-class) {
+  color: red;
+}
+
+
+/* After */
+.container :deep(.button) {
+  background-color: blue;
+}
